@@ -146,8 +146,12 @@ var translate = map[string]Key{
 	"ShiftArrowUp":   KeyShiftArrowUp,
 	"ArrowDown":      KeyArrowDown,
 	"ShiftArrowDown": KeyShiftArrowDown,
-	"ArrowLeft":      KeyArrowLeft,
-	"ArrowRight":     KeyArrowRight,
+	"ArrowLeft":          KeyArrowLeft,
+	"ArrowRight":         KeyArrowRight,
+	"ShiftArrowLeft":     KeyShiftArrowLeft,
+	"ShiftArrowRight":    KeyShiftArrowRight,
+	"CtrlArrowLeft":      KeyCtrlArrowLeft,
+	"CtrlArrowRight":     KeyCtrlArrowRight,
 	"CtrlTilde":      KeyCtrlTilde,
 	"Ctrl2":          KeyCtrl2,
 	"CtrlSpace":      KeyCtrlSpace,
@@ -229,6 +233,10 @@ const (
 	KeyShiftArrowDown     = Key(tcell.KeyF63)
 	KeyArrowLeft          = Key(tcell.KeyLeft)
 	KeyArrowRight         = Key(tcell.KeyRight)
+	KeyShiftArrowLeft     = Key(tcell.KeyF55)
+	KeyShiftArrowRight    = Key(tcell.KeyF54)
+	KeyCtrlArrowLeft      = Key(tcell.KeyF53)
+	KeyCtrlArrowRight     = Key(tcell.KeyF52)
 )
 
 // Keys combinations.

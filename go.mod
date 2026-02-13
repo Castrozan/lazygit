@@ -2,6 +2,8 @@ module github.com/jesseduffield/lazygit
 
 go 1.25.0
 
+replace github.com/jesseduffield/gocui => github.com/Castrozan/gocui v0.3.1-0.20260213140003-7e7f80cd8ff8
+
 // This is necessary to ignore test files when executing gofumpt.
 ignore ./test
 
